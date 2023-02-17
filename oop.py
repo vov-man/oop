@@ -136,7 +136,7 @@ def grades_students(students_list, course):
     if overall_student_rating == 0:
         return f'Оценок по этому предмету нет'
     else:
-        return f'{average_student_score }'
+        return f'{average_student_score/students}'
 
 
 def grades_lecturers(lecturer_list, course):
